@@ -128,3 +128,14 @@ alias dotfiles='/usr/bin/git --git-dir=/home/simon/.dotfiles/ --work-tree=/home/
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# go
+export PATH="$HOME/go/bin:$PATH"
+
+# local bins
+export PATH="$HOME/.local/bin:$PATH"
+
+# asdf
+. "$HOME/.asdf/asdf.sh"
+. "$HOME/.asdf/completions/asdf.bash"
+. "$HOME/.cargo/env"
